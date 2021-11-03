@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ipod{
+  position: absolute;
+  height: 450px;
+  width: 290px;
+  background-color: #0081AB;
+  border-radius: 10%;
+  margin-left: 40vw;
+  margin-top: 10vh;
+}
+
+.screen{
+  position: absolute;
+  height: 225px;
+  width: 274px;
+  background-image: url('https://images.hdqwalls.com/download/dr-strange-2020-42-274x225.jpg');
+  background-size: 100% 100%;
+  border-radius: 13%;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.scroller{
+  height: 200px;
+  width: 200px;
+  background-color: silver;
+  border-radius: 50%;
+  margin-left: 45px;
+  margin-top: 240px;
+}
+
+.ok-button{
+  height: 80px;
+  width: 80px;
+  background-color: #0081AB;
+  border-radius: 50%;
+  margin-left: 105px;
+  margin-top:  -140px;
+}
