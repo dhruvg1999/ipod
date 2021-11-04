@@ -50,3 +50,48 @@ code{
   margin-left: 105px;
   margin-top:  -140px;
 }
+
+.action{
+  position: absolute;
+  height: 20px;
+  width: 30px;
+  margin-left: 100px;
+  background-color: transparent;
+}
+
+.scroller:hover{
+  cursor: pointer;
+}
+
+.ok-button:hover{
+  cursor: pointer;
+}
+
+#top{
+  margin-top: 22px;
+  margin-left: 75px;
+}
+
+#right{
+  margin-top: 90px;
+  margin-left: 159px;
+}
+
+#left{
+  margin-top: 91px;
+  margin-left: 12px;
+}
+
+#bottom{
+  height: 30px;
+  margin-top: 152px;
+  margin-left: 80px;
+}
+
+.menu{
+  position: absolute;
+  background-color: white;
+  height: 225px;
+  width: 150px;
+  border-radius: 13% 0 0 13%;
+}

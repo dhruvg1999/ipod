@@ -1,13 +1,16 @@
 import React from 'react';
 import fw from './fastforward.png';
 import bw from './fastbackward.png';
-import pp from './pauseplay.png';
+import pp from './pauseplay.png'; 
 
-class IpodBody extends React.Component{  
+class Menu extends React.Component{
     render(){
         return(
             <div className="ipod">
                 <div className="screen">
+                    <div className="menu">
+                        Hello
+                    </div>
                 </div>
                 <div className="scroller">
                     <div className="action" id="top"><b>MENU</b></div>
@@ -22,4 +25,4 @@ class IpodBody extends React.Component{
     }
 }
 
-export default IpodBody;
+export default Menu;
